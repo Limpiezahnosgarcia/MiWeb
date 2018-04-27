@@ -1,0 +1,206 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:Open sans;
+
+}
+
+nav{
+	margin:32px auto;
+	width:800px;
+	height:40px;
+	float: center;
+	
+}
+
+ul{
+	list-style: none;
+	width:1000px;
+	height:40px;
+}
+
+li{
+	float:left;
+	width:200px;
+	height:40px;
+	background-color: green;
+	overflow: hidden;
+	margin-top:0px;
+}
+
+div.contenedor_general:hover{
+	margin-top:-40px;
+}
+
+div.contenedor_general{
+	width:200px;
+	height:80px;
+	background-color: #313D52;
+	-webkit-transition:margin-top .3s;
+}
+
+div.contenedor_uno{
+	width:200px;
+	height:36px;
+	background-color: white;
+	overflow: hidden;
+	border-bottom:3px solid #FDC201;
+	text-align:center;
+}
+
+div.contenedor_dos{
+	width:200px;
+	height:36px;
+	background-color: #FDC201;						/**/
+	overflow: hidden;
+	border-bottom:4px solid #FDC201;
+}
+
+p.texto_uno, p.texto_dos{
+	text-align: center;
+	margin-top:9px;
+	color:black;
+
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+	text-decoration:none; 
+	
+
+
+
+}
+/*Fondo*/
+body{
+	background: #313D52;
+	/*Fondo de imagen    background-image: url("C:/Users/Andre/Desktop/Empresa H.R Garcia/Logo2.jpg"); */
+}
+
+/*Posicion del menu */
+header{
+	width: 100%;
+}
+
+
+
+/*Cabecera Fija de arriba*/
+
+#main-footer1 {
+	background: #ffffcc;
+	color: #165480;
+	text-align: center;
+	padding: 9px;				/*Ancho de la cabecera*/
+	margin-top: 0px;
+	
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+
+
+
+
+/*Cabecera Fija de abajo*/
+
+#main-footer {
+	background: #ffffcc;
+	color: red;
+	text-align: center;
+	padding: 17px;				/*Ancho de la cabecera*/
+	margin-top: 170px;
+	
+}
+	#main-footer p {
+		margin: 10;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+
+
+
+/*Quitar el scroll 
+html,body { 
+ overflow:hidden; 
+} 	*/
+
+
+/*FORMULARIO*/
+
+body{
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: monospace;
+}
+
+form{
+	width: 730px;
+	height: 550px;
+	margin: 2% auto;
+	background: rgba(0,0,0,0.5);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+h2{
+	color:#fff;
+	text-align: center;
+	margin:0;
+	font-size: 30px;
+	margin-bottom: 20px;
+
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border:none;
+	text-align:left;
+}
+
+
+textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+
+}
+	
+
+#boton{
+	background: #31384A;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+#boton:hover{
+	cursor:pointer;
+}
+
+@media (max-width: 480px){
+	form{
+		width: 100%;
+	}
+
+
+
+}
